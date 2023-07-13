@@ -1,0 +1,173 @@
+/* icons */
+
+  @import url('https://fonts.googleapis.com/css2?family=Francois+One&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Catamaran&display=swap');
+.marquee {
+    background-color: rgb(44, 55, 71);
+    color: aliceblue;
+}
+
+.navs{
+    background-color: rgb(47, 49, 52);
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.first{
+    display: flex;
+    flex-grow: 1fr;
+}
+.second{
+    display: flex;
+}
+.image2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sub{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    color: #fff;
+
+}
+.birla{padding-right: 120px;}
+.image1{
+    width: 100px;
+    text-align: center;
+
+}
+.image1 img{
+    width: 100%;
+}
+
+.nav {
+    display: block;
+    background-color: rgb(47, 49, 52);
+}
+
+.logo {
+    padding-top: 10px;
+    padding-left: 50px;
+    background-color:rgb(47, 49, 52);
+}
+
+.icons {
+display: inline-block;
+padding-bottom: 10px;
+padding-left: 400px;
+text-align: end;
+    color: aliceblue;
+}
+.icons {
+    font-family: 'Material Symbols Outlined';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 74px;
+    line-height: 1;
+    letter-spacing: normal;
+    text-transform: none;
+    display: inline-block;
+    white-space: nowrap;
+    word-wrap: normal;
+    direction: ltr;
+    -webkit-font-feature-settings: 'liga';
+    -webkit-font-smoothing: antialiased;
+}
+
+.nav2 {
+    display: flex;
+}
+
+.logo2 {
+    padding-left: 100px;
+    flex-grow: 1;
+}
+
+.anchor .list li {
+    display: inline;
+}
+
+.anchor a {
+
+    text-decoration: none;
+    color: rgb(67, 124, 175);
+
+    padding-left: 40px;
+    font-family: 'Catamaran', sans-serif;
+}
+
+.anchor {
+    flex-grow: 2;
+    padding-top: 40px;
+    padding-left: 40px;
+}
+
+.srchicn {
+    flex-grow: 2;
+
+
+    padding-top: 20px;
+    display: flex;
+    justify-content: start;
+}
+/* search bar styling */
+.form21{
+padding-left: 50px;
+padding-bottom: 10px;
+ --width-of-input: 200px;
+ --border-height: 1px;
+ --border-before-color: rgba(0, 0, 0, 0.39);
+ --border-after-color: #040404;
+ --input-hovered-color: #4985e01f;
+ position: relative;
+ width: var(--width-of-input);
+}
+
+.input {
+ color: #fff;
+ font-size: 0.9rem;
+ background-color: transparent;
+ width: 100%;
+ box-sizing: border-box;
+ padding-inline: 0.5em;
+ padding-block: 0.7em;
+ border: none;
+ border-bottom: var(--border-height) solid var(--border-before-color);
+}
+
+.input-border {
+ position: absolute;
+ background: var(--border-after-color);
+ width: 0%;
+ height: 2px;
+ bottom: 0;
+ left: 0;
+ transition: 0.3s;
+}
+
+input:hover {
+ background: var(--input-hovered-color);
+}
+
+input:focus {
+ outline: none;
+}
+
+input:focus ~ .input-border {
+ width: 100%;
+}
+
+
+.section2{
+    display: flex;
+    padding-top: 50px;
+}
+.sec2{
+    padding-right: 60px;
+}
+.section2 div{text-align: center;}
