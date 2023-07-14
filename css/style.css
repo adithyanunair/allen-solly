@@ -166,6 +166,7 @@ input:focus ~ .input-border {
 .section2{
     display: flex;
     padding-top: 50px;
+    padding-left: 140px;
 }
 .sec2{
     padding-right: 60px;
