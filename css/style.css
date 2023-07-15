@@ -2,6 +2,10 @@
 
   @import url('https://fonts.googleapis.com/css2?family=Francois+One&display=swap');
   @import url('https://fonts.googleapis.com/css2?family=Catamaran&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+
+
 .marquee {
     background-color: rgb(44, 55, 71);
     color: aliceblue;
@@ -93,12 +97,12 @@ text-align: end;
 }
 
 .anchor a {
-
+   
+    color: rgb(38, 54, 101) ;
     text-decoration: none;
-    color: rgb(67, 124, 175);
 
     padding-left: 40px;
-    font-family: 'Catamaran', sans-serif;
+    font-family: 'Oswald', sans-serif;
 }
 
 .anchor {
@@ -173,7 +177,11 @@ input:focus ~ .input-border {
 .sec2{
     padding-right: 60px;
 }
-.section2 div{text-align: center;}
+.section2 div{
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 1px;
+}
 
 .pay{display: flex;
     flex-wrap: wrap;
@@ -198,12 +206,17 @@ padding-top: 40px;}
 .fa1{text-align: center;
 padding-top: 40px;
 color: rgb(66, 96, 183);
+font-family: 'Oswald', sans-serif;
+    letter-spacing: 1px;
+
 }
 .sec3{
     padding-right: 30px;
 }
 .section3 div{text-align: center;
     color: rgb(66, 96, 183);
+    font-family: 'Oswald', sans-serif;
+letter-spacing: 1px;
 }
 
 .dlogo img{
@@ -214,6 +227,10 @@ color: rgb(66, 96, 183);
 .stc1{
     padding-top: 50px;
   text-align: center;
+  color: rgb(38, 54, 101) ;
+  font-family: 'Oswald', sans-serif;
+    letter-spacing: 1px;
+
 }
 
 
@@ -225,6 +242,9 @@ padding-top: 70px;
 .sec1a a{
     padding-left: 30px;
     text-decoration: none;
+    font-family: 'Oswald', sans-serif;
+    color: rgb(38, 54, 101) ;
+    letter-spacing: 3px;
 }
 
 
@@ -237,4 +257,55 @@ padding-top: 70px;
     padding-right: 40px;
     padding-top: 70px;
 }
-.section4 div{text-align: center;}
+.section4 div{text-align: center;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 1px;
+color: rgb(38, 54, 101) ;}
+
+
+
+.mps{
+    background-color:  rgb(38, 54, 101);
+}
+.stc2{
+    padding-top: 50px;
+  text-align: center;
+  color: #fffb00;
+  font-family: 'Oswald', sans-serif;
+    letter-spacing: 1px;
+}
+
+.sec5ba {
+    padding-top: 70px;
+      text-align: center;
+    
+    }
+    .sec5ba a{
+        padding-left: 30px;
+        text-decoration: none;
+        color: #fff;
+        font-family: 'Oswald', sans-serif;
+        letter-spacing: 3px;
+    }
+    
+
+.section5  {
+    display: flex;
+    flex-wrap: wrap;
+  justify-content: center;
+ 
+}
+.sec5{text-align: center;
+padding-top: 40px;
+
+}
+.sec5{
+    padding-right: 30px;
+    color: #fff;
+}
+.section5 div{
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 1px;
+   
+}
